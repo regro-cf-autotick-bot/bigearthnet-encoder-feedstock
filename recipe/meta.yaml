@@ -1,13 +1,13 @@
 {% set name = "bigearthnet-encoder" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/bigearthnet_encoder-{{ version }}.tar.gz
-  sha256: 6698da05574d88aacf5d90dba01c00fc5edc7417933c7416b2b9afda8aac0888
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 472bf48414c3355c2fdd5cb017142f7b31d6951a53cf21478afda6e54f44943d
 
 build:
   entry_points:
